@@ -20,8 +20,8 @@ When('he do the login with user {string} and password {string}', async function 
     await loginPage.doLogin(userName,pass);
   });
 
-Then('he should see the inventario page', async function () {
-    await expect(fixture.page).toHaveURL("https://www.saucedemo.com/v1/inventory.html");
+Then('he should see the Webstore page', async function () {
+    await expect(fixture.page).toHaveURL("https://fastenerindustriesbeta.sana-cloud.net/admin/");
     // browser.close()
   });
 

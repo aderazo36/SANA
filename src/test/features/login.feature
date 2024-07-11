@@ -12,9 +12,9 @@ Feature: Login Test
     When he do the login with user <user> and password <password>
     Then he should see the inventario page
    Examples:
-      | user            | password           |
-      | "standard_user" | "secret_sauce"     |
-      | "standard_user" | "secret_sauce"     |
+      | user                                             | password           |
+      | "sana_fastenerindustries_beta@sana-commerce.com" | "<;@#e1rz7W84"     |
+      | "standard_user"                                  | "secret_sauce"     |
 
   
 

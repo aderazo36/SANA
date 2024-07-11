@@ -11,8 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^9.6.0",
-    "@playwright/test": "^1.38.0",
+    "@playwright/test": "^1.45.0",
     "@types/node": "^20.6.2",
     "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }
