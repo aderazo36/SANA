@@ -110,7 +110,7 @@ Tell people where they can go to for help. It can be any combination of an issue
 If you have ideas for releases in the future, it is a good idea to list them in the README.
 
 ## Authors and acknowledgment
-| [<img src="https://gitlab.com/uploads/-/system/user/avatar/15033064/avatar.png?width=400" width=115><br><sub>Cristian F. Roa C.</sub>](https://gitlab.com/cristian.roa) <br/> 
+| <sub>Angel David Erazo Ibarra</sub>](https://github.com/aderazo36) <br/> 
 
 
 ## License
