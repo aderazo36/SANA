@@ -1,4 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
+import { trace } from 'console';
+import { on } from 'events';
 
 /**
  * Read environment variables from file.
@@ -28,7 +30,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    screenshot: 'only-on-failure',
+    screenshot: 'on',
     baseURL: 'https://www.saucedemo.com/v1/'
   },
 
@@ -36,7 +38,11 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome']
+
+        
+
+       },
     }
 
     // {

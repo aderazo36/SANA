@@ -1,5 +1,5 @@
 import { Given, When, Then } from "@cucumber/cucumber";
-import { SwagLabsLogin } from '../../pages/LoginPage';
+import { SanaLogin } from '../../pages/SanaFastenerAddOn';
 // import { test, expect } from '@playwright/test';
 import { chromium, Page, Browser, expect} from '@playwright/test';
 import { fixture } from "../../hooks/pageFixture";
@@ -7,12 +7,12 @@ import { fixture } from "../../hooks/pageFixture";
 
 // let browser : Browser;
 // let page: Page;
-let loginPage: SwagLabsLogin;
+let loginPage: SanaLogin;
 
 
 Given('The user is on login page', async function () {
    
-    loginPage = new SwagLabsLogin(fixture.page);
+    loginPage = new SanaLogin(fixture.page);
     await loginPage.goto();
   });
 
